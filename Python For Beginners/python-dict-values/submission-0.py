@@ -1,0 +1,7 @@
+from typing import List,Dict
+
+def get_dict_values(age_dict:Dict[str,int])->List[int]:
+    return list(age_dict.values())
+
+print(get_dict_values({"Alice":25,"Bob":30,"Charlie":35}))
+print(get_dict_values({"Alice": 25, "Bob": 30, "Charlie": 35, "David": 40}))   
